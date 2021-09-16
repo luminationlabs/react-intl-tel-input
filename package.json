@@ -114,8 +114,6 @@
     "coverage-upload": "NODE_ENV=development cat coverage/lcov.info | yarn coveralls",
     "test": "jest src",
     "test:watch": "jest src --watchAll --coverage",
-    "test:ts": "tsc --project ./tsconfig.test.json",
-    "test:ts-watch": "tsc --watch --project ./tsconfig.test.json",
     "footprint": "yarn build && yarn packwatch",
     "lint:commits": "yarn commitlint --from HEAD --to HEAD --verbose"
   },
