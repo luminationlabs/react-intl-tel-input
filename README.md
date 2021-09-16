@@ -76,8 +76,7 @@ Any kind of contribution including proposals, doc improvements, enhancements, bu
 To contribute to `react-intl-tel-input`, clone this repo locally and commit your code on a separate branch. Please write tests for your code, and run the linter before opening a pull-request:
 
 ```bash
-yarn test    # if you are enhancing the JavaScript modules
-yarn test:ts # if you are enhancing the TypeScript type declarations
+yarn test
 yarn lint
 ```
 
